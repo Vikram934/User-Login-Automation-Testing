@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23804" started-at="2022-08-12T18:41:52 IST" finished-at="2022-08-12T18:42:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23804" started-at="2022-08-12T18:41:52 IST" finished-at="2022-08-12T18:42:15 IST">
+      <class name="saucedemo.LoginTest1">
+        <test-method status="PASS" signature="init()[pri:0, instance:saucedemo.LoginTest1@b7dd107]" name="init" is-config="true" duration-ms="363" started-at="2022-08-12T18:41:52 IST" finished-at="2022-08-12T18:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.LoginTest1@b7dd107]" name="login" duration-ms="12062" started-at="2022-08-12T18:41:53 IST" data-provider="getData" finished-at="2022-08-12T18:42:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.LoginTest1@b7dd107]" name="login" duration-ms="8184" started-at="2022-08-12T18:42:05 IST" data-provider="getData" finished-at="2022-08-12T18:42:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="report()[pri:0, instance:saucedemo.LoginTest1@b7dd107]" name="report" is-config="true" duration-ms="1939" started-at="2022-08-12T18:42:13 IST" finished-at="2022-08-12T18:42:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- saucedemo.LoginTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
